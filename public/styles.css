@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: rgb(13, 54, 54);
+}
+.title {
+  color: rgb(39, 136, 216);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+}
+
+.input input {
+  margin: 5px;
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid silver;
+  background-color: rgb(19, 92, 92);
+}
+input::placeholder {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+button {
+  font-size: 20px;
+  color: silver;
+  border-radius: 10px;
+}
+.add {
+  background-color: rgb(9, 104, 182);
+}
+.delete {
+  background-color: rgb(191, 36, 36);
+  margin-left: 30px;
+}
+.todolist {
+  color: green;
+}
+
+li {
+  font-size: 25px;
+  margin-top: 15px;
+  list-style-type: none;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  border-radius: 5px;
+  accent-color: rgb(19, 133, 226);
+}
